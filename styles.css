@@ -1,0 +1,82 @@
+body{
+  background-color:#DECDC3;
+  text-align: center;
+  width:100%;
+  overflow-x: hidden;
+
+}
+h1{
+  color: #54123B;
+  font-family: 'Press Start 2P', cursive;
+  margin: 3%;
+}
+#canvas{
+  /* position:rel;
+  top:50%;
+  left:50%; */
+
+  /* transform:translate(-50%, -25%); */
+}
+.btn{
+  margin-top:2.5%;
+  margin-bottom: 2.5%;
+  margin-right: 10px;
+
+
+
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+.move{
+  background-color: green;
+  margin-right: 25px;
+  margin-left: 30px;
+}
+.restart{
+  background-color: #ED5107;
+
+}
+
+/* div{
+    display: inline-block;
+} */
+h3{
+
+  color: #54123B;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  padding-left: 0px;
+  padding-right: 90px;
+  margin-right:20px;
+  text-align: right;
+
+  /* margin-right: 7rem; */
+
+}
+@media (max-width:1028px)
+{
+  canvas{
+    width:300px;
+    height:300px;
+  }
+  div{
+    display: block;
+  }
+  h3{
+    text-align: center;
+    padding-left:90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  body{
+    background-color:#DECDC3;
+    text-align: center;
+    width:100%;
+
+
+  }
+
+
+}
